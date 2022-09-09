@@ -1,0 +1,85 @@
+	Home page:
+about,contact,donor signup,reciever signup,sign in
+
+Admin:
+home,edit password,donor details, receiver details,logout
+
+Donor page:
+home,edit password,upload food details, upload donations,logout
+
+Receiver page:
+home,edit password,donation details,logout
+
+
+orphanage/receiver:
+-Name
+-Address
+-ph.no
+-Type(individual or institution)
+-E-mail
+-Password
+
+Donor:
+-Name
+-Address
+-ph.no
+-Type(individual or institution)
+-E-mail
+-Password
+
+
+ADMIN
+
+create table admin(name varchar(100),password varchar(100));
+
+insert into admin values('admin','admin');
+
+
+DONOR
+
+create table donor(id  varchar(100), name varchar(100),address varchar(100),phno varchar(100),email varchar(100),password varchar(100),role int,PRIMARY KEY(id));
+
+insert into donor values('name','address','phno','type','email','password');
+
+
+
+RECEIVER
+
+create table receiver(id int identity(1,1) NOT NULL, name varchar(100),address varchar(100),phno varchar(100),email varchar(100),password varchar(100),role int,PRIMARY KEY(id));
+
+insert into orphanage values('name','address','phno','type','email','password');
+
+insert into orphanage values('Sangeetha','Srinagar','6362467589','institution','sangeethasangu@gmail.com','1234');
+
+
+
+
+
+upload food details
+id
+name
+mobile no
+email id
+food type
+no of people can be fed
+food expiry date
+image
+status
+create table fdetails(fid varchar(100),name varchar(100),phno varchar(100),email varchar(100),address varchar(100),ftype varchar(100),number varchar(100),fimage varchar(100),pdate varchar(100),expirydate varchar(100),status varchar(100),demail varchar(100),PRIMARY KEY(fid));
+
+accept food 
+create table rfdetails(id varchar identity(1,1) NOT NULL,fid varhcar,name varchar(100),phno varchar(100),email varchar(100),address varchar(100),status varchar(100),PRIMARY KEY(id),FOREIGN KEY(fid) references fdetails(fid));
+
+Blog
+create table blog(name varchar(100),oname varchar(100),blog varchar(700),review varchar(100));
+
+orphange details uploaded by them
+name of the orphanage
+address
+requirements
+images 
+contact no
+email
+create table orphanage(name varchar(100),oimage varchar(100),phno varchar(100),email varchar(100),address varchar(250),descr varchar(500));
+
+create table book(name varchar(100),btype varchar(100),class varchar(100),nbooks varchar(100));
