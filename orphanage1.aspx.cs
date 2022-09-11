@@ -44,7 +44,7 @@ public partial class orphanage1 : System.Web.UI.Page
             Response.Write("<div class=col-md-12 my-2>");
             Response.Write("<div class=card  style=background-image:url(assets/images/grey.jpg);>");
 
-            String s = "", pid = "";
+            String s = "", pid = "",em="";
             while (reader.Read())
             {
                 for (int i = 0; i <= 5; i++)
@@ -68,7 +68,13 @@ public partial class orphanage1 : System.Web.UI.Page
                         pid = s;
                         Response.Write("<center><h1>" + s + "</h2></center>");
                     }
-                    else
+                    else if(i == 3) 
+                    {
+                        em = s; 
+                        Response.Write("<center><h4>" + s + " </h4></center>");
+
+                    }
+                    else 
                     {
                         Response.Write("<center><h4>" + s + " </h4></center>");
 
@@ -76,7 +82,7 @@ public partial class orphanage1 : System.Web.UI.Page
 
                 }
 
-                Response.Write("<center><p><a href=uploaddonation.aspx><button style=background:green;color:white>Donate</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href=course.aspx><button style=background:green;color:white>Course</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href=blogs.aspx?name=" + pid + " ><button style=background:green;color:white>Feedback</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href=booking.aspx><button style=background:green;color:white>Booking</button></a></p><hr/>");
+                Response.Write("<center><p><a href=uploaddonation.aspx><button style=background:green;color:white>Donate</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href=course.aspx><button style=background:green;color:white>Course</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href=blogs.aspx?name=" + pid + " ><button style=background:green;color:white>Feedback</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href=booking.aspx?="+ em + "&name="+ pid +"><button style=background:green;color:white>Booking</button></a></p><hr/>");
                 //  Response.Write("<td><a href=deletemovies1.aspx?id=" + pid + " ><img src=delete.jpg height=50 width=50></img></a></td>");
                 // Response.Write("<td><a href=Editbook.aspx?id="+" class=btn btn-info btn-lg>       <span class=glyphicon glyphicon-pencil></span> Edit     </a></td>");
                 //  Response.Write("<td><a href=deletebook.aspx?id=" + s + " >Delete</a></td>");

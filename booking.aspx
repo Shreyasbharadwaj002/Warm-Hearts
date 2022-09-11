@@ -36,15 +36,6 @@ TemplateMo 557 Grad School
 https://templatemo.com/tm-557-grad-school
 
 -->
-      <style type="text/css">
-          .auto-style5 {
-              height: 55px;
-              width: 388px;
-          }
-          .auto-style6 {
-              height: 55px;
-          }
-          </style>
       </head>
 
   <body>
@@ -104,78 +95,62 @@ https://templatemo.com/tm-557-grad-school
       <p>
           &nbsp;</p>
                   <center>
-                      <h1 style="color:aliceblue">EDIT PASSWORD</h1>
-           <ContentTemplate><table style="font-family:Verdana;font-size:125%;width:702px;">
-              <tr>
-                    <td align="center" colspan="2" style="color:White;background-color:aliceblue;font-weight:bold;">
-                        </td>
-               </tr>
-           <tr>
-               <td class="auto-style5">
-                   <asp:Label ID="Label1" runat="server" Text="Name" ForeColor="White"></asp:Label>
-               </td>
-               <td class="auto-style6">
-                   <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-               </td>
-           </tr>
-           <tr>
-               <td class="auto-style5">
-                   <asp:Label ID="Label2" runat="server" Text="Orphanage name" ForeColor="White"></asp:Label>
-               </td>
-               <td class="auto-style6">
-                   <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-               </td>
-           </tr>
-           <tr>
-               <td class="auto-style5">
-                   <asp:Label ID="Label3" runat="server" Text="Phone Number" ForeColor="White"></asp:Label>
-               </td>
-               <td class="auto-style6">
-                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-               </td>
-           </tr>
-           <tr>
-               <td class="auto-style5">
-                   <asp:Label ID="Label4" runat="server" ForeColor="White" Text="Donor Email"></asp:Label>
-               </td>
-               <td class="auto-style6">
-                   <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-               </td>
-           </tr>
-           <tr>
-               <td class="auto-style5">
-                   <asp:Label ID="Label5" runat="server" ForeColor="White" Text="Receiver Email"></asp:Label>
-               </td>
-               <td class="auto-style6">
-                   <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-               </td>
-           </tr>
-           <tr>
-               <td class="auto-style5">
-                   <asp:Label ID="Label6" runat="server" ForeColor="White" Text="Purpose"></asp:Label>
-               </td>
-               <td class="auto-style6">
-                   <asp:TextBox ID="TextBox6" runat="server" TextMode="MultiLine"></asp:TextBox>
-               </td>
-           </tr>
-           <tr>
-               <td class="auto-style5">
-                   <asp:Label ID="Label7" runat="server" ForeColor="White" Text="Date"></asp:Label>
-               </td>
-               <td class="auto-style6">
-                   <asp:TextBox ID="TextBox7" runat="server" TextMode="Date"></asp:TextBox>
-               </td>
-           </tr>
-           <tr >
-               <td colspan="2">
-                  <center> <asp:Button ID="Button1" align="center" runat="server"  Text="Submit"  BackColor="#0099CC" ForeColor="Black" BorderColor="#003366" /></center>
-               </td>
-           </tr>
-           </table>
+                      <h1 style="color:aliceblue">BOOK AN ORPHANAGE</h1>
+           <ContentTemplate>
          </center>
           
-          </div>
-                 </div>
+          
+                 <div class="row">
+              <div class="col-md-3"></div>
+
+              <div class="col-md-6">
+
+                  <div class="card" >
+                    
+                      <div class="card-body bg-gradient bg-dark">
+                              <label for="title" class="form-label" style="color: white;">Orphanage Name</label>
+                              <div class="form-floating">
+                                
+                                <asp:TextBox runat="server"  class="form-control"  style="color:black"    id="TextBox5" Required="" ></asp:TextBox><br /></div>
+                              
+                        
+                           <label for="title"  style="color: white;">Enter Your Name</label>
+                              <div class="form-floating">
+                                
+                                <asp:TextBox runat="server"  class="form-control" style="color:black"   id="TextBox2" Required="" ></asp:TextBox><br />
+                              
+                        
+                          <label for="title" class="form-label" style="color: white;text-align:left;">Enter Purpose And Date Of Visit</label></div>
+                        
+                         <div class="form-floating">
+                                
+                                <asp:TextBox runat="server"  class="form-control" style="color:black"   TextMode="MultiLine"  Rows="10" name="message"   id="TextBox1" Required="" ></asp:TextBox>
+                                <label for="floatingTextarea2" ></label>
+                              </div>
+    
+                          <asp:TextBox runat="server" ID="TextBox3" Visible="false"></asp:TextBox>
+                          <asp:TextBox runat="server" ID="TextBox4" Visible="false"></asp:TextBox>
+
+
+                          
+
+                         
+                          
+                          <div class="d-grid gap-2 col-5 mx-auto">
+                         <svg xmlns="http://www.w3.org/2000/svg" color="white" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                            <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/></svg>  <asp:Button runat="server" CssClass="btn btn-success bg-gradient" type="submit"  Text="SEND" onclick="Button1_Click"/>
+                          
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="white" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                          </svg>   <button class="btn btn-danger bg-gradient" type="reset">CLEAR</button>
+                          </div>
+                          
+                      </div>
+                  </div>
+
+              </div>
+                     </div>
+                  </div></div>
               </section>
           
         </form>

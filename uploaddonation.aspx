@@ -100,7 +100,7 @@ https://templatemo.com/tm-557-grad-school
                           <p class="card-text"></p>
                           <p class="card-text"></p>
                           <div class="down-content">
-                              <div class="scroll-to-section main-button"><center><asp:Button BackColor="Orange" BorderColor="Orange" ForeColor="White" Height="43" Width="100" runat="server" Text="MONEY" OnClick="Unnamed1_Click"/></center></div>
+                              <div class="scroll-to-section main-button"><center><asp:Button BackColor="Orange" BorderColor="Orange" ForeColor="White" Height="43" Width="100" runat="server" Text="MONEY" PostBackUrl="~/money.aspx"/></center></div>
                           </div>
                       </div>
                   </div>

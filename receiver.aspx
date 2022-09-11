@@ -44,6 +44,7 @@ https://templatemo.com/tm-557-grad-school
               <ul class="main-menu">
                   <li><a href="receiver.aspx">Home</a></li>
                   <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
                   <li><a href="editpwd1.aspx">Edit Password</a></li>
                   <li><a href="notification.aspx">Notifications</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
@@ -57,95 +58,34 @@ https://templatemo.com/tm-557-grad-school
        
     
       <section class="section courses" data-section="section4">
-          <div class="container-fluid">
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="section-heading">
-                          <h2>Choose Your Course</h2>
-                      </div>
-                  </div>
-                  <div class="owl-carousel owl-theme">
-                      <div class="item">
-                          <img src="assets/images/courses-01.jpg" alt="Course #1">
-                          <div class="down-content">
-                              <h4>Yoga Class</h4>
-                              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-                              <div class="author-image">
-                                  <img src="assets/images/author-01.png" alt="Author 1">
-                              </div>
-                              <div class="text-button-pay">
-                                  <a href="convolunteer.aspx">Contact<i class="fa fa-angle-double-right"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="item">
-                          <img src="assets/images/courses-02.jpg" alt="Course #2">
-                          <div class="down-content">
-                              <h4>Art and Craft making</h4>
-                              <p>elit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
-                              <div class="author-image">
-                                  <img src="assets/images/author-02.png" alt="Author 2">
-                              </div>
-                              <div class="text-button-pay">
-                                  <a href="art.aspx">Contact<i class="fa fa-angle-double-right"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="item">
-                          <img src="assets/images/courses-03.jpg" alt="Course #3">
-                          <div class="down-content">
-                              <h4>Aerobics</h4>
-                              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-                              <div class="author-image">
-                                  <img src="assets/images/author-03.png" alt="Author 3">
-                              </div>
-                              <div class="text-button-pay">
-                                  <a href="aerobics.aspx">Contact<i class="fa fa-angle-double-right"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                       <div class="item">
-                          <img src="assets/images/courses-03.jpg" alt="Course #3">
-                          <div class="down-content">
-                              <h4>Sangeetha Class</h4>
-                              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
-                              <div class="author-image">
-                                  <img src="assets/images/author-03.png" alt="Author 3">
-                              </div>
-                              <div class="text-button-pay">
-                                  <a href="sangeetha.aspx">Contact<i class="fa fa-angle-double-right"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="item">
-                          <img src="assets/images/courses-04.jpg" alt="Course #4">
-                          <div class="down-content">
-                              <h4>Dance Class</h4>
-                              <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
-                              <div class="author-image">
-                                  <img src="assets/images/author-04.png" alt="Author 4">
-                              </div>
-                              <div class="text-button-pay">
-                                  <a href="dance.aspx">Contact<i class="fa fa-angle-double-right"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="item">
-                          <img src="assets/images/courses-05.jpg" alt="">
-                          <div class="down-content">
-                              <h4>Personality Development</h4>
-                              <div class="author-image">
-                                  <img src="assets/images/author-05.png" alt="">
-                              </div>
-                              <div class="text-button-pay">
-                                  <a href="pdev.aspx">Contact<i class="fa fa-angle-double-right"></i></a>
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-          </div>
+         <article class="video-item">
+                        
+                          <br /><br /><br /><br />  
+                          <figure>
+                            <iframe width="600" height="400" src="https://www.youtube.com/embed/Ux0ZWYDXk1c" title="Heart of an orphan: Amy Eldridge at TEDxSFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                          </figure>
+                      </article>
+                   <article class="video-item">
+                        
+                          
+                          <figure>
+                              <iframe width="600" height="400" src="https://www.youtube.com/embed/bq8eOm0zEIs" title="This Race Called Life - a beautiful inspirational short-story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                          </figure>
+                      </article>
+                   <article class="video-item">
+                        
+                          
+                          <figure>
+                              <iframe width="600" height="400" src="https://www.youtube.com/embed/c8hjhRqIwHE" title="Yoga For Beginners :Part 1 | Yoga Routine | Yoga At Home | Yoga Routine For Beginners | Cult Fit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure>
+                      </article>
+                   <article class="video-item">
+                        
+                          
+                          <figure>
+                              <iframe width="600" height="400" src="https://www.youtube.com/embed/c8hjhRqIwHE" title="Yoga For Beginners :Part 1 | Yoga Routine | Yoga At Home | Yoga Routine For Beginners | Cult Fit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure>
+                      </article>
       </section> 
      <footer>
           <div class="container">

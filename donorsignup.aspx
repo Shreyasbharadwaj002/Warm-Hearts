@@ -102,7 +102,7 @@ https://templatemo.com/tm-557-grad-school
           </div>
           <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.aspx">Home</a></li>
                   <li><a href="about.aspx">About Us</a></li>
                   <li><a href="course.aspx">Courses</a></li>
                   <li><a href="#">Donor</a></li>
@@ -196,8 +196,8 @@ https://templatemo.com/tm-557-grad-school
                     <asp:Label ID="Label7" runat="server" Text="Name" ForeColor="White"></asp:Label>
                 </td>
                 <td class="auto-style25">
-                    <asp:TextBox ID="TextBox1" runat="server" MaxLength="20"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="TextBox1" runat="server" MaxLength="20" Required=""></asp:TextBox>
+                    
                     <asp:RegularExpressionValidator runat="server" ControlToValidate="Textbox1" ValidationExpression="[a-zA-Z ]*$" Display="Dynamic" ForeColor="White" ErrorMessage="Use Only Alphabets"></asp:RegularExpressionValidator>
                 </td>
             </tr>
@@ -206,8 +206,8 @@ https://templatemo.com/tm-557-grad-school
                     <asp:Label ID="Label8" runat="server" Text="Address" ForeColor="White"></asp:Label>
                 </td>
                 <td class="auto-style26">
-                    <asp:TextBox ID="TextBox2" runat="server" Height="38px" TextMode="MultiLine" Width="277px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox2" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="TextBox2" runat="server" Height="38px" TextMode="MultiLine" Width="277px" Required=""></asp:TextBox>
+                  
                 </td>
             </tr>
             <tr>
@@ -215,9 +215,8 @@ https://templatemo.com/tm-557-grad-school
                     <asp:Label ID="Label6" runat="server" Text="Phone Number" ForeColor="White"></asp:Label>
                 </td>
                 <td class="auto-style27">
-                    <asp:TextBox ID="TextBox3" runat="server" MaxLength="10" TextMode="Phone"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" MaxLength="10" TextMode="Phone" Required=""></asp:TextBox>
                     <asp:RegularExpressionValidator runat="server" ControlToValidate="Textbox3" ValidationExpression="^[6-9][0-9]{9}$" Display="Dynamic" ForeColor="White" ErrorMessage="Enter Valid Phone Number"></asp:RegularExpressionValidator>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox3" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -225,8 +224,7 @@ https://templatemo.com/tm-557-grad-school
                     <asp:Label ID="Label9" runat="server" ForeColor="White" Text="Email Id"></asp:Label>
                 </td>
                 <td class="auto-style27">
-                    <asp:TextBox ID="TextBox4" runat="server" TextMode="Email"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox4" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="TextBox4" runat="server" TextMode="Email" Required=""></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -234,8 +232,8 @@ https://templatemo.com/tm-557-grad-school
                     <asp:Label ID="Label5" runat="server" Text="Password" ForeColor="White"></asp:Label>
                 </td>
                 <td class="auto-style28">
-                    <asp:TextBox ID="TextBox5" runat="server" MaxLength="16" TextMode="Password" ToolTip="Password minimum length must be 8 and maximum length can  be of 16 containing one uppercase and lowercase letter with atleast one number" Width="279px"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox5" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                    <asp:TextBox ID="TextBox5" runat="server" MaxLength="16" TextMode="Password" Required="" ToolTip="Password minimum length must be 8 and maximum length can  be of 16 containing one uppercase and lowercase letter with atleast one number" Width="279px"></asp:TextBox>
+                  
                 </td>
                 
             </tr>

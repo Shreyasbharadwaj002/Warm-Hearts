@@ -99,9 +99,9 @@ https://templatemo.com/tm-557-grad-school
           $(window).scroll(function () {
               checkSection();
           });
-      </script>
+      </script><br /><br /><br /><br /><br />
               <div align="center">
-          <h3>NUMBER OF USERS REGISTERED</h3>
+          <h3 style="color:white">NUMBER OF USERS REGISTERED</h3>
          <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT role, COUNT(*) AS count FROM donor GROUP BY role UNION ALL SELECT role, COUNT(*) AS count FROM receiver GROUP BY role"></asp:SqlDataSource>
               <asp:Chart ID="Chart1" runat="server" DataSourceID="SqlDataSource1" LabelForeColor="White" BackColor="Transparent" Palette="None" CssClass="bg-transparent" Height="438px"  Width="698px" EnableViewState="True" PaletteCustomColors="Maroon; 128, 64, 64" style="margin-top: 81px" BorderlineWidth="2">
               <Series>
@@ -129,6 +129,7 @@ https://templatemo.com/tm-557-grad-school
                       </asp:TextAnnotation>
                   </Annotations>
           </asp:Chart><br />
+                  <h3 style="color:white">FOOD STATUS</h3>
                   <asp:Chart ID="Chart2" runat="server" DataSourceID="SqlDataSource2" Height="250px" Width="638px" CssClass="auto-style1">
               <Series>
                   <asp:Series Name="Series1" XValueMember="status" YValueMembers="count">
@@ -141,7 +142,8 @@ https://templatemo.com/tm-557-grad-school
           </asp:Chart>
                   <br /><br />
                   <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT status, count(*) as count from fdetails group by status;"></asp:SqlDataSource>
-              <asp:Chart ID="Chart3" runat="server" DataSourceID="SqlDataSource3" Width="492px" Height="341px" CssClass="auto-style1" >
+              <h3 style="color:white">RATINGS OF ORPHANAGES</h3>
+                  <asp:Chart ID="Chart3" runat="server" DataSourceID="SqlDataSource3" Width="492px" Height="341px" CssClass="auto-style1" >
               <Series>
                   <asp:Series Name="Series1" XValueMember="oname" YValueMembers="rating">
                   </asp:Series>

@@ -41,7 +41,7 @@ https://templatemo.com/tm-557-grad-school
           </div>
           <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.aspx">Home</a></li>
                   <li><a href="about.aspx">About Us</a></li>
                   <li><a href="course.aspx">Courses</a></li>
                   <li><a href="donorsignup.aspx">Donor</a></li>
@@ -64,7 +64,7 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="owl-carousel owl-theme">
                       <div class="item">
-                          <img src="assets/images/courses-01.jpg" alt="Course #1">
+                          <img src="assets/images/yimg.jpg" alt="Course #1">
                           <div class="down-content">
                               <h4>Yoga Class</h4>
                               <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
@@ -77,7 +77,7 @@ https://templatemo.com/tm-557-grad-school
                           </div>
                       </div>
                       <div class="item">
-                          <img src="assets/images/courses-02.jpg" alt="Course #2">
+                          <img src="assets/images/art and crafts.jpg" alt="Course #2">
                           <div class="down-content">
                               <h4>Art and Craft making</h4>
                               <p>elit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
@@ -90,7 +90,7 @@ https://templatemo.com/tm-557-grad-school
                           </div>
                       </div>
                       <div class="item">
-                          <img src="assets/images/courses-03.jpg" alt="Course #3">
+                          <img src="assets/images/aimg.jpg" alt="Course #3">
                           <div class="down-content">
                               <h4>Aerobics</h4>
                               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
@@ -103,7 +103,7 @@ https://templatemo.com/tm-557-grad-school
                           </div>
                       </div>
                        <div class="item">
-                          <img src="assets/images/courses-03.jpg" alt="Course #3">
+                          <img src="assets/images/simg.jpg" alt="Course #3">
                           <div class="down-content">
                               <h4>Sangeetha Class</h4>
                               <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
@@ -116,7 +116,7 @@ https://templatemo.com/tm-557-grad-school
                           </div>
                       </div>
                       <div class="item">
-                          <img src="assets/images/courses-04.jpg" alt="Course #4">
+                          <img src="assets/images/dimg.jpg" alt="Course #4">
                           <div class="down-content">
                               <h4>Dance Class</h4>
                               <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>

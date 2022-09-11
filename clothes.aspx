@@ -92,7 +92,7 @@ https://templatemo.com/tm-557-grad-school
         <div>
         </div>
                  <center>
-            <h1 style="color:aliceblue">BOOKS</h1>
+            <h1 style="color:aliceblue">CLOTHES</h1>
           <table style="font-family:Verdana;font-size:125%;" class="auto-style20">
           <tr>
               <td class="auto-style3">

@@ -73,7 +73,7 @@ public partial class notification1 : System.Web.UI.Page
                 con.Open();
                 cmd11.ExecuteNonQuery();
                 con.Close();
-                Response.Write("<script>alert('Thank You for Accepting...');window.location='receiver.aspx';</script>");
+                Response.Write("<script>alert('Thank You for Accepting...Send A Notification To Donor');window.location='http://127.0.0.1:8000/admin/rsendmessage';</script>");
                 }
                 else
                 {

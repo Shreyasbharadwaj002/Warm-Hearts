@@ -12,8 +12,4 @@ public partial class uploaddonations : System.Web.UI.Page
 
     }
 
-    protected void Unnamed1_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("http://localhost/test/pay.php?amt=500");
-    }
 }

@@ -67,7 +67,7 @@ https://templatemo.com/tm-557-grad-school
           </div>
           <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.aspx">Home</a></li>
                   <li><a href="about.aspx">About Us</a></li>
                   <li><a href="course.aspx">Courses</a></li>
                   <li><a href="donorsignup.aspx">Donor</a></li>

@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>WARM HEARTS</title>
     
@@ -39,7 +40,7 @@ https://templatemo.com/tm-557-grad-school
           </div>
           <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.aspx">Home</a></li>
                   <li><a href="about.aspx">About Us</a></li>
                   <li><a href="course.aspx">Courses</a></li>
                   <li><a href="donorsignup.aspx">Donor</a></li>
@@ -55,22 +56,24 @@ https://templatemo.com/tm-557-grad-school
       </header>
 
       <!-- ***** Main Banner Area Start ***** -->
-      <section class="section main-banner" id="top" data-section="section1">
+       <section class="section main-banner" >
           <video autoplay muted loop id="bg-video">
-              <source src="assets/images/course-video.mp4" type="video/mp4" />
+              <source src="assets/images\course-video.mp4"
+                      type="video/mp4" />
           </video>
 
           <div class="video-overlay header-text">
               <div class="caption">
                   <h6>Welcome to our world</h6>
-                  <h2><em>WE</em> CARE</h2>
+                  <h2><em>WARM</em>HEARTS</h2>
+                  <div class="main-button">
+                    <div class=""><a href="#section2">Join with us</a></div>
+                  </div>
               </div>
           </div>
       </section>
       <!-- ***** Main Banner Area End ***** -->
-
-
-       <section class="section why-us" data-section="">
+            <section class="section why-us" data-section="">
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
@@ -130,8 +133,34 @@ https://templatemo.com/tm-557-grad-school
               </div>
           </div>
       </section>
+      
 
-
+      <section class="section video" id="section2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6 align-self-center">
+                      <div class="left-content">
+                          <span>KNOW HOW VOLUNTEERS WORK</span>
+                          <h4>Watch the sample video<em> to know how volunteers work</em></h4>
+                          <p>
+                              <blockquote> There are already many volunteers working with us to provide proper knowledge,proper health awareness.They give their precious time to teach the orphans.</blockquote>
+                              <br><br><h5>So if you are interested to join your hands with us, apply here.</h5>
+                          </p>
+                          <div class="main-button"><a rel="nofollow" href="volunteers.aspx">Click here</a></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <article class="video-item">
+                          <h3 style="color:white">Sample Video</h3>
+                          
+                          <figure>
+                              <iframe width="600" height="400" src="https://www.youtube.com/embed/c8hjhRqIwHE" title="Yoga For Beginners :Part 1 | Yoga Routine | Yoga At Home | Yoga Routine For Beginners | Cult Fit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure>
+                      </article>
+                  </div>
+              </div>
+          </div>
+      </section>
 
 
 
@@ -140,9 +169,9 @@ https://templatemo.com/tm-557-grad-school
               <div class="row">
                   <div class="col-md-12">
                       <p>
-                          <i class="fa fa-copyright"></i> Copyright 2020 by Grad School
+                          <i class="fa fa-copyright"></i> Contact Us Via Email
 
-                          | Design: <a href="https://templatemo.com" rel="sponsored" target="_parent">TemplateMo</a>
+                          | Sangeetha S: <a href="mailto:sangeetha29sangu@gmail.com">sangeetha29sangu@gmail.com</a>| Shreyas G Bharadwaj: <a href="mailto:shreyasbharadwaj002@gmail.com">shreyasbharadwaj002@gmail.com</a>
                       </p>
                   </div>
               </div>

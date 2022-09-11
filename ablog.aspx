@@ -105,7 +105,6 @@ https://templatemo.com/tm-557-grad-school
                   <asp:BoundField DataField="id" HeaderText="ID" SortExpression="id" ItemStyle-ForeColor="White" HeaderStyle-ForeColor="White"/>
                   <asp:BoundField DataField="name" HeaderText="NAME" SortExpression="name"  ControlStyle-ForeColor="White" ItemStyle-ForeColor="White" HeaderStyle-ForeColor="White"/>
                   <asp:BoundField DataField="blog" HeaderText="BLOG" SortExpression="blog" ControlStyle-ForeColor="White" ItemStyle-ForeColor="White" HeaderStyle-ForeColor="White" />
-                  <asp:ImageField DataImageUrlField="image" HeaderText="IMAGE" SortExpression="image"  ControlStyle-Height="125"  ItemStyle-ForeColor="White" HeaderStyle-ForeColor="White" />
               </Columns>
           </asp:GridView>
           <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [blogs]" DeleteCommand="DELETE FROM [blogs] where [id]=@id" UpdateCommand="UPDATE [blogs] set [blog]=@blog,[image]=@image where [id]=@id"></asp:SqlDataSource>

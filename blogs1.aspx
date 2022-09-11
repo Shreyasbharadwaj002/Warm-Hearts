@@ -28,11 +28,12 @@ https://templatemo.com/tm-557-grad-school
 
 -->
       <style type="text/css">
-          .auto-style1 {
-              margin-top: 213px;
-          }
           .id{
               font-size:x-small;
+          }
+          .auto-style2 {
+              margin-left: 98px;
+              margin-top: 51px;
           }
       </style>
   </head>
@@ -52,7 +53,7 @@ https://templatemo.com/tm-557-grad-school
               <ul class="main-menu">
                   <li><a href="donor.aspx">Home</a></li>
                   <li><a href="editpwd.aspx">Edit Password</a></li>
-                  <li><a href="blogs1.aspx">feedback</a></li>
+                  <li><a href="blogs1.aspx">Booking</a></li>
                   <li><a href="afood.aspx">Accepted Food</a></li>
                   <li><a href="fooddetails.aspx">Upload Food Details</a></li>
                   <li><a href="uploaddonation.aspx">Upload Donation</a></li>
@@ -76,25 +77,23 @@ https://templatemo.com/tm-557-grad-school
       <p>
           &nbsp;</p>
 
-                 <center><h2 style="color:aliceblue">BLOGS ON ORPHANAGES</h2></center>
-             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CssClass="auto-style1" DataSourceID="SqlDataSource1" style="color:white" PagerStyle-Width="100">
-                                
-              <Columns>
-                  <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
-                  <asp:BoundField DataField="oname" HeaderText="Orphanage Name" SortExpression="oname" />
-                  <asp:BoundField DataField="blog" HeaderText="Blog" SortExpression="blog" />
-                  <asp:BoundField DataField="rating" HeaderText="Reviews(Stars)" SortExpression="review" />
-                  <asp:TemplateField>
-                      <ItemTemplate>
-                          <asp:Button runat="server" PostBackUrl="~/uploaddonation.aspx" BackColor="Orange" BorderColor="Orange" ForeColor="White" Text="Donate"/>
-                      </ItemTemplate>
-                  </asp:TemplateField>
-              </Columns>
-                 <PagerStyle Width="100px" />
-          </asp:GridView>
-                  </div>
-                  </section>
-          <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [blog]"></asp:SqlDataSource>
+                 <center><h1 style="color:white">BOOKED ORPHANAGES</h1></center>
+                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="100px" Width="1300px" style="color:aliceblue" CssClass="auto-style2">
+                     <Columns>
+                         <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
+                         <asp:BoundField DataField="oname" HeaderText="Orphanage Name" SortExpression="oname" />
+                         <asp:BoundField DataField="purpose" HeaderText="Purpose" SortExpression="purpose" />
+                         <asp:BoundField DataField="status" HeaderText="Status" SortExpression="status" />
+                     </Columns>
+                 </asp:GridView>
+                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [name],[oname], [purpose], [status] FROM [booking] WHERE (([status] = @status) AND ([email] = @email))">
+                     <SelectParameters>
+                         <asp:Parameter DefaultValue="Booked" Name="status" Type="String" />
+                         <asp:SessionParameter Name="email" SessionField="email" Type="String" />
+                     </SelectParameters>
+                 </asp:SqlDataSource>
+
+                 
       </form>
  
      </body>
