@@ -176,7 +176,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label1" runat="server" ForeColor="White" Text="Name"></asp:Label>
                </td>
                <td class="auto-style18">
-                   <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox1" runat="server" Required=""></asp:TextBox>
                </td>
                <td class="auto-style15">
                    &nbsp;</td>
@@ -204,7 +204,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label3" runat="server" ForeColor="White" Text="Available Time"></asp:Label>
                </td>
                <td class="auto-style18">
-                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox3" runat="server" Required=""></asp:TextBox>
                </td>
                <td class="auto-style15">
                    &nbsp;</td>
@@ -216,7 +216,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label4" runat="server" ForeColor="White" Text="Phone Number"></asp:Label>
                </td>
                <td class="auto-style18">
-                   <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox4" runat="server" Required=""></asp:TextBox>
                </td>
                <td class="auto-style15">
                    &nbsp;</td>
@@ -228,7 +228,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label5" runat="server" ForeColor="White" Text="Email id"></asp:Label>
                </td>
                <td class="auto-style18">
-                   <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox5" runat="server" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr >

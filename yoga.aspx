@@ -28,11 +28,16 @@ TemplateMo 557 Grad School
 https://templatemo.com/tm-557-grad-school
 
 -->
+      <style type="text/css">
+          .auto-style1 {
+              margin-top: 17px;
+          }
+      </style>
   </head>
 
  <body>
 
-
+     <form runat="server">
       <!--header-->
       <header class="main-header clearfix">
           <div class="logo">
@@ -40,13 +45,15 @@ https://templatemo.com/tm-557-grad-school
           </div>
           <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="editpwd.aspx">Edit Password</a></li>
-                  <li><a href="blogs1.aspx">Blogs</a></li>
-                  <li><a href="fooddetails.aspx">Upload Food Details</a></li>
-                  <li><a href="uploaddonation.aspx">Upload Donations</a></li>
+                  <li><a href="receiver.aspx">Home</a></li>
+                  <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
+                  <li><a href="editpwd1.aspx">Edit Password</a></li>
+                  <li><a href="notification.aspx">Notifications</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
-                 
+
+
               </ul>
           </nav>
           <hr/>
@@ -55,8 +62,25 @@ https://templatemo.com/tm-557-grad-school
           <video autoplay muted loop id="bg-video">
               <source src="assets/images/course-video.mp4" type="video/mp4" />
           </video>
-             <div class="video-overlay header-text">
+             <div class="video-overlay header-text"><br /><br /><br /><br /><br /><br />
+                    <center><h1 style="color:aliceblue">CONTACT TRAINER FOR THE MEETING-LINK</h1>
+        
+                            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" ForeColor="White" DataSourceID="SqlDataSource1" Height="100px" Width="1000px" CssClass="auto-style1" >
+                                <Columns>
+                                    <asp:BoundField DataField="vname" HeaderText="Volunteer Name" SortExpression="vname" />
+                                    <asp:BoundField DataField="ctype" HeaderText="Type Of Course" SortExpression="ctype" />
+                                    <asp:BoundField DataField="atime" HeaderText="Available Time" SortExpression="atime" />
+                                    <asp:BoundField DataField="phno" HeaderText="Phone Number" SortExpression="phno" />
+                                    <asp:BoundField DataField="email" HeaderText="Email-Id" SortExpression="email" />
+                                </Columns>
+                            </asp:GridView>
+                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [volunteers] WHERE ([ctype] = @ctype)">
+                                <SelectParameters>
+                                    <asp:Parameter DefaultValue="Yoga Class" Name="ctype" Type="String" />
+                                </SelectParameters>
+                            </asp:SqlDataSource>
              </div>
                   </section>
+         </form>
      </body>
     </html>

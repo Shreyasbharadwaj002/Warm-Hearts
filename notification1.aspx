@@ -50,12 +50,14 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-      <nav id="menu" class="main-nav" role="navigation">
+     <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="receiver.aspx">Home</a></li>
+                  <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
                   <li><a href="editpwd1.aspx">Edit Password</a></li>
                   <li><a href="notification.aspx">Notifications</a></li>
-                  <li><a href="dondetails.aspx">Donation Details</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
 
 
@@ -139,7 +141,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label1" runat="server" Text="Id" ForeColor="White"></asp:Label>
               </td>
               <td class="auto-style5">
-                  <asp:TextBox ID="TextBox1" runat="server" Height="37px"></asp:TextBox>
+                  <asp:TextBox ID="TextBox1" runat="server" Height="37px" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -147,7 +149,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label2" runat="server" Text="Name" ForeColor="White"></asp:Label>
               </td>
               <td class="auto-style5">
-                  <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TextBox2" runat="server" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -155,7 +157,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label3" runat="server" ForeColor="White" Text="Phone Number"></asp:Label>
               </td>
               <td class="auto-style5">
-                  <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TextBox3" runat="server" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -171,7 +173,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label4" runat="server" ForeColor="White" Text="Your E-mail Id"></asp:Label>
               </td>
               <td class="auto-style5">
-                  <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TextBox4" runat="server" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -179,7 +181,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label5" runat="server" ForeColor="White" Text="Address"></asp:Label>
               </td>
               <td class="auto-style5">
-                  <asp:TextBox ID="TextBox5" runat="server" TextMode="MultiLine" ToolTip="Enter The Address Where You Will Receive The Food"></asp:TextBox>
+                  <asp:TextBox ID="TextBox5" runat="server" TextMode="MultiLine" ToolTip="Enter The Address Where You Will Receive The Food" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -187,7 +189,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label6" runat="server" ForeColor="White" Text="Acceptance Date"></asp:Label>
               </td>
               <td class="auto-style5">
-                  <asp:TextBox ID="TextBox6" runat="server" TextMode="DateTime"></asp:TextBox>
+                  <asp:TextBox ID="TextBox6" runat="server" TextMode="DateTime" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr align="center">

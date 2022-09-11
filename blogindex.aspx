@@ -37,10 +37,11 @@ https://templatemo.com/tm-557-grad-school
       <style type="text/css">
           .auto-style5 {
               height: 55px;
-              width: 388px;
+              width: 882px;
           }
           .auto-style6 {
               height: 55px;
+              width: 418px;
           }
           .auto-style9 {
               height: 18px;
@@ -106,10 +107,9 @@ https://templatemo.com/tm-557-grad-school
           &nbsp;</p>
       <p>
           &nbsp;</p>
-       <center><h1 style="color:aliceblue">BLOG HERE</h1>
-           <ContentTemplate><table style="font-family:Verdana;font-size:125%;width:702px;">
+       <h1 style="color:aliceblue">BLOG HERE</h1>
+          <center> <ContentTemplate><table style="font-family:Verdana;font-size:125%;" width="700">
               <tr>
-                    <td align="center" colspan="2" style="color:White;background-color:aliceblue;font-weight:bold;">
                         </td>
                </tr>
            <tr>
@@ -117,7 +117,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label7" runat="server" ForeColor="White" Text="ID"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox3" runat="server" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -125,7 +125,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label1" runat="server" Text="Name" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox1" runat="server" ToolTip="Your Name" Width="278px"></asp:TextBox>
+                   <asp:TextBox ID="TextBox1" runat="server" ToolTip="Your Name" Width="278px" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -133,7 +133,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label5" runat="server" ForeColor="White" Text="Blog"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox2" runat="server" ToolTip="Few opinions on the Orphanage" Width="285px" Columns="5" Rows="3" TextMode="MultiLine"></asp:TextBox>
+                   <asp:TextBox ID="TextBox2" runat="server" ToolTip="Few opinions on the Orphanage" Width="285px" Columns="5" Rows="3" TextMode="MultiLine" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -146,7 +146,7 @@ https://templatemo.com/tm-557-grad-school
            </tr>
            <tr align="center">
                <td class="auto-style9" colspan="2">
-                   <asp:Button ID="Button1" align="center" runat="server"  Text="Submit"  BackColor="#0099CC" ForeColor="Black" BorderColor="#003366" OnClick="Button1_Click"/>
+                   <asp:Button ID="Button1" align="center" runat="server"  Text="Upload"  BackColor="Orange" ForeColor="White"  BorderColor="Orange" OnClick="Button1_Click"/>
                </td>
            </tr>
 

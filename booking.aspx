@@ -59,8 +59,8 @@ https://templatemo.com/tm-557-grad-school
               <ul class="main-menu">
                   <li><a href="donor.aspx">Home</a></li>
                   <li><a href="editpwd.aspx">Edit Password</a></li>
-                  <li><a href="blogs1.aspx">Feedback</a></li>
-                  <li><a href="afood.aspx">Accepted Food</a></li>
+                  <li><a href="blogs1.aspx">Bookings</a></li>
+                  <li><a href="afood.aspx">Accepted Food </a></li>
                   <li><a href="fooddetails.aspx">Upload Food Details</a></li>
                   <li><a href="uploaddonation.aspx">Upload Donation</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
@@ -130,7 +130,7 @@ https://templatemo.com/tm-557-grad-school
     
                           <asp:TextBox runat="server" ID="TextBox3" Visible="false"></asp:TextBox>
                           <asp:TextBox runat="server" ID="TextBox4" Visible="false"></asp:TextBox>
-
+                          <asp:TextBox runat="server" ID="TextBox6" Visible="false"></asp:TextBox>
 
                           
 

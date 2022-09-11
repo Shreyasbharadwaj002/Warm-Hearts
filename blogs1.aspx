@@ -80,15 +80,14 @@ https://templatemo.com/tm-557-grad-school
                  <center><h1 style="color:white">BOOKED ORPHANAGES</h1></center>
                  <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="100px" Width="1300px" style="color:aliceblue" CssClass="auto-style2">
                      <Columns>
-                         <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
-                         <asp:BoundField DataField="oname" HeaderText="Orphanage Name" SortExpression="oname" />
-                         <asp:BoundField DataField="purpose" HeaderText="Purpose" SortExpression="purpose" />
-                         <asp:BoundField DataField="status" HeaderText="Status" SortExpression="status" />
+                         <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
+                         <asp:BoundField DataField="oname" HeaderText="oname" SortExpression="oname" />
+                         <asp:BoundField DataField="purpose" HeaderText="purpose" SortExpression="purpose" />
+                         <asp:BoundField DataField="status" HeaderText="status" SortExpression="status" />
                      </Columns>
                  </asp:GridView>
-                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [name],[oname], [purpose], [status] FROM [booking] WHERE (([status] = @status) AND ([email] = @email))">
+                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [name], [oname], [purpose], [status] FROM [booking] WHERE ([email] = @email)">
                      <SelectParameters>
-                         <asp:Parameter DefaultValue="Booked" Name="status" Type="String" />
                          <asp:SessionParameter Name="email" SessionField="email" Type="String" />
                      </SelectParameters>
                  </asp:SqlDataSource>

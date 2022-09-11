@@ -44,10 +44,11 @@ public partial class booking : System.Web.UI.Page
             }
             reader.Close();
             con.Close();
+            TextBox6.Text = ctr.ToString();
             if (ctr == 0)
             {
 
-                s = "insert into booking values(@name,@oname,@email,@emailid,@purpose,'Pending')";
+                s = "insert into booking values(@name,@oname,@email,@emailid,@purpose,'Pending','',@id)";
                 cmd1 = new SqlCommand(s, con);
 
                 cmd1.Parameters.Add("@name", TextBox2.Text);
@@ -55,6 +56,8 @@ public partial class booking : System.Web.UI.Page
                 cmd1.Parameters.Add("@email", TextBox3.Text);
                 cmd1.Parameters.Add("@emailid", TextBox4.Text);
                 cmd1.Parameters.Add("@oname", TextBox5.Text);
+                cmd1.Parameters.Add("@id", TextBox6.Text);
+
 
 
 

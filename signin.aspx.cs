@@ -71,7 +71,7 @@ public partial class signin : System.Web.UI.Page
                     r = cmd.ExecuteReader();
                     string email, password, un1, pwd1,n="",phno="";
                     email = TextBox1.Text.Trim();
-                    password = TextBox2.Text.Trim();
+                    password = TextBox2.Text.Trim(); 
                     while (r.Read())
                     {
                         un1 = r.GetString(4).Trim();

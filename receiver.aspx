@@ -44,6 +44,7 @@ https://templatemo.com/tm-557-grad-school
               <ul class="main-menu">
                   <li><a href="receiver.aspx">Home</a></li>
                   <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
                   <li><a href="rbooking.aspx">Booking</a></li>
                   <li><a href="editpwd1.aspx">Edit Password</a></li>
                   <li><a href="notification.aspx">Notifications</a></li>
@@ -56,36 +57,47 @@ https://templatemo.com/tm-557-grad-school
           <hr/>
       </header>
        
-    
       <section class="section courses" data-section="section4">
-         <article class="video-item">
-                        
-                          <br /><br /><br /><br />  
+      
+                        <br /><br /><br /><br />
+    <center><h1 style="color:white;font-family:Algerian">Here Are Some Videos Which Are Informative!!</h1></center>
+                          <br /><br />
                           <figure>
-                            <iframe width="600" height="400" src="https://www.youtube.com/embed/Ux0ZWYDXk1c" title="Heart of an orphan: Amy Eldridge at TEDxSFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                           <iframe width="1450" height="600" src="https://www.youtube.com/embed/5sxbsa-O-D0" title="Inspirational speech by Sudha murthy || 👌👌👌👌👌 speech ||" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           </figure>
-                      </article>
-                   <article class="video-item">
-                        
-                          
-                          <figure>
-                              <iframe width="600" height="400" src="https://www.youtube.com/embed/bq8eOm0zEIs" title="This Race Called Life - a beautiful inspirational short-story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                          </figure>
-                      </article>
-                   <article class="video-item">
+                   
+                   <br />
                         
                           
                           <figure>
-                              <iframe width="600" height="400" src="https://www.youtube.com/embed/c8hjhRqIwHE" title="Yoga For Beginners :Part 1 | Yoga Routine | Yoga At Home | Yoga Routine For Beginners | Cult Fit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </figure>
-                      </article>
-                   <article class="video-item">
+                              <iframe width="1450" height="600" src="https://www.youtube.com/embed/bq8eOm0zEIs" title="This Race Called Life - a beautiful inspirational short-story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                          </figure><br />
+                     <figure>
+                              <iframe width="1450" height="600" src="https://www.youtube.com/embed/WDzQWrssKMA" title="People who grew up in an orphanage | Awkward questions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure><br />
                         
                           
                           <figure>
-                              <iframe width="600" height="400" src="https://www.youtube.com/embed/c8hjhRqIwHE" title="Yoga For Beginners :Part 1 | Yoga Routine | Yoga At Home | Yoga Routine For Beginners | Cult Fit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </figure>
-                      </article>
+                               <iframe width="1450" height="600" src="https://www.youtube.com/embed/Ux0ZWYDXk1c" title="Heart of an orphan: Amy Eldridge at TEDxSFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                          </figure><br />
+                      </>
+                  
+                        
+                          
+                          <figure>
+                          <iframe width="1450" height="600" src="https://www.youtube.com/embed/1kLZJeFNP94" title="When PROBLEMS Are Beyond Your CONTROL ........" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure><br />
+                           <figure>
+                          <iframe width="1450" height="600" src="https://www.youtube.com/embed/_HEnohs6yYw" title="THE CHOICE (Short Animated Movie)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure><br />
+                          <figure>
+                           <iframe width="1450" height="600" src="https://www.youtube.com/embed/yyX6UULJEic" title="Resilience: Anticipate, organise, adapt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure><br />
+                          <figure>
+                          <iframe width="1450" height="600" src="https://www.youtube.com/embed/GWGbOjlJDkU" title="Who are you?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </figure><br />
+                       
+                      
       </section> 
      <footer>
           <div class="container">

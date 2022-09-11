@@ -154,8 +154,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label2" runat="server" Text="Name" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style8">
-                   <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox2" runat="server" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -163,8 +162,9 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label3" runat="server" Text="Phone Number" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style8">
-                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox3" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox3" runat="server" MaxLength="10" Required=""></asp:TextBox>
+                    <asp:RegularExpressionValidator runat="server" ControlToValidate="Textbox3" ValidationExpression="^[6-9][0-9]{9}$" Display="Dynamic" ForeColor="White" ErrorMessage="Enter Valid Phone Number"></asp:RegularExpressionValidator>
+                  
                </td>
            </tr>
            <tr>
@@ -172,8 +172,8 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label6" runat="server" Text="Email Id" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style8">
-                   <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox4" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox4" runat="server" Required=""></asp:TextBox>
+                   
                </td>
            </tr>
            <tr>
@@ -181,8 +181,8 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label9" runat="server" ForeColor="White" Text="Address"></asp:Label>
                </td>
                <td class="auto-style8">
-                   <asp:TextBox ID="TextBox8" runat="server" TextMode="MultiLine" Width="281px"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBox8" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox8" runat="server" TextMode="MultiLine" Width="281px" Required=""></asp:TextBox>
+                 
                </td>
            </tr>
            <tr>
@@ -190,8 +190,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label7" runat="server" Text="Food Type" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style8">
-                   <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox5" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox5" runat="server" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -199,7 +198,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label4" runat="server" Text="Number of people that can be fed" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style3">
-                   <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox6" runat="server" Required=""></asp:TextBox>
                    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBox6" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
                </td>
            </tr>
@@ -209,7 +208,6 @@ https://templatemo.com/tm-557-grad-school
                </td>
                <td class="auto-style8">
                    <asp:FileUpload ID="FileUpload1" runat="server" ForeColor="White" Width="279px" />
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="FileUpload1" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
                </td>
            </tr>
            <tr>
@@ -217,8 +215,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label13" runat="server" ForeColor="White" Text="Prepared Date "></asp:Label>
                </td>
                <td class="auto-style8">
-                   <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TextBox11" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox11" runat="server" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -226,8 +223,8 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label8" runat="server" Text="Expiry Date"  ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style8">
-                   <asp:TextBox ID="TextBox7" runat="server" TextMode="Date"   CssClass="auto-style12"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="TextBox7" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox7" runat="server" TextMode="Date"   CssClass="auto-style12" Required=""></asp:TextBox>
+                  
                </td>
            </tr>
            <tr >

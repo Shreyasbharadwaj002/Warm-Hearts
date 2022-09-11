@@ -16,6 +16,7 @@ public partial class rbooking : System.Web.UI.Page
     {
         string strcon = ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString;
         con = new SqlConnection(strcon);
+        con1 = new SqlConnection(strcon);
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -26,35 +27,28 @@ public partial class rbooking : System.Web.UI.Page
             con.Open();
 
             SqlCommand cmd1 = new SqlCommand(s, con);
-            SqlDataReader reader;
-            reader = cmd1.ExecuteReader();
-            int ctr = 0;
-            //    string uname = "";
-            while (reader.Read())
-            {
-                //  uname = reader.GetString(0);
-                ctr++;
-            }
-            reader.Close();
             con.Close();
-            if (ctr == 1)
-            {
 
-                s = "update booking  set status='Booked' where emailid=" +"'" +(string)Session["emailid"]+"'";
-                SqlCommand cmd11 = new SqlCommand(s, con);
-                
+            s = "update booking  set status='Booked' where emailid=" + "'" + (string)Session["emailid"] + "'";
+            cmd1 = new SqlCommand(s, con);
 
-                con.Open();
-                cmd11.ExecuteNonQuery();
-                con.Close();
-                Response.Write("<script>alert('Thank You For Aceepting...');window.location='receiver.aspx';</script>");
-            }
+
+            con.Open();
+            cmd1.ExecuteNonQuery();
+            con.Close();
+            Response.Write("<script>alert('Thank You For Accepting...');window.location='receiver.aspx';</script>");
+
+
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             Response.Write(ex.ToString());
         }
 
-       
-}
+
     }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("reply.aspx");
+    }
+}

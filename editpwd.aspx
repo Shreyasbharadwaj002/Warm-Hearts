@@ -62,12 +62,12 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-          <nav id="menu" class="main-nav" role="navigation">
+             <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
                   <li><a href="donor.aspx">Home</a></li>
                   <li><a href="editpwd.aspx">Edit Password</a></li>
-                  <li><a href="blogs1.aspx">Feedback</a></li>
-                  <li><a href="afood.aspx">Accepted Food</a></li>
+                  <li><a href="blogs1.aspx">Bookings</a></li>
+                  <li><a href="afood.aspx">Accepted Food </a></li>
                   <li><a href="fooddetails.aspx">Upload Food Details</a></li>
                   <li><a href="uploaddonation.aspx">Upload Donation</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
@@ -110,10 +110,10 @@ https://templatemo.com/tm-557-grad-school
                </tr>
            <tr>
                <td class="auto-style5">
-                   <asp:Label ID="Label1" runat="server" Text="Old Password" ForeColor="White"></asp:Label>
+                   <asp:Label ID="Label1" runat="server" Text="Old Password" ForeColor="White" ></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox1" runat="server" TextMode="Password" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -121,7 +121,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label2" runat="server" Text="New Password" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox2" runat="server"  TextMode="Password" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -129,12 +129,12 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label3" runat="server" Text="Confirm Password" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox3" runat="server"  TextMode="Password" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr >
                <td colspan="2">
-                  <center> <asp:Button ID="Button1" align="center" runat="server"  Text="Submit"  BackColor="#0099CC" ForeColor="Black" BorderColor="#003366" OnClick="Button1_Click1" /></center>
+                  <center> <asp:Button ID="Button1" align="center" runat="server"  Text="Update Password"  BackColor="#0099CC" ForeColor="Black" BorderColor="#003366" OnClick="Button1_Click1" /></center>
                </td>
            </tr>
            </table>

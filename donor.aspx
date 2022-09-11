@@ -41,7 +41,7 @@ https://templatemo.com/tm-557-grad-school
               <ul class="main-menu">
                   <li><a href="donor.aspx">Home</a></li>
                   <li><a href="editpwd.aspx">Edit Password</a></li>
-                  <li><a href="blogs1.aspx">Feedback</a></li>
+                  <li><a href="blogs1.aspx">Bookings</a></li>
                   <li><a href="afood.aspx">Accepted Food </a></li>
                   <li><a href="fooddetails.aspx">Upload Food Details</a></li>
                   <li><a href="uploaddonation.aspx">Upload Donation</a></li>

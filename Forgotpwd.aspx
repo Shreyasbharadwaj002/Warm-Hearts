@@ -114,7 +114,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label1" runat="server" Text="Email-Id" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox1" runat="server" Required="" TextMode="Email"></asp:TextBox>
                </td>
            </tr>
            <tr>

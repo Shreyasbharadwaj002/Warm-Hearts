@@ -333,7 +333,7 @@ https://templatemo.com/tm-557-grad-school
                                       <asp:Textbox runat="server" name="name" type="text" class="form-control" ID="TextBox1" placeholder="Your Name" Visible="false" ></asp:Textbox>
                                   </fieldset>
                                   <fieldset>
-                                      <asp:Textbox runat="server" name="name" type="text" class="form-control" ID="TextBox2" placeholder="Your Name" ></asp:Textbox>
+                                      <asp:Textbox runat="server" name="name" type="text" class="form-control" ID="TextBox2" placeholder="Your Name" Required=""></asp:Textbox>
                                   </fieldset>
                               </div>
                               <div class="col-md-6">

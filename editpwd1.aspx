@@ -63,10 +63,12 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-        <nav id="menu" class="main-nav" role="navigation">
+          <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
                   <li><a href="receiver.aspx">Home</a></li>
                   <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
                   <li><a href="editpwd1.aspx">Edit Password</a></li>
                   <li><a href="notification.aspx">Notifications</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
@@ -113,7 +115,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label1" runat="server" Text="Old Password" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox1" runat="server" TextMode="Password" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -121,7 +123,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label2" runat="server" Text="New Password" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox2" runat="server"  TextMode="Password" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -129,12 +131,12 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label3" runat="server" Text="Confirm Password" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox3" runat="server" TextMode="Password" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr >
                <td colspan="2">
-                  <center> <asp:Button ID="Button1" align="center" runat="server"  Text="Submit"  BackColor="#0099CC" ForeColor="Black" BorderColor="#003366" OnClick="Button1_Click" /></center>
+                  <center> <asp:Button ID="Button1" align="center" runat="server"  Text="Update Password"  BackColor="#0099CC" ForeColor="Black" BorderColor="#003366" OnClick="Button1_Click" /></center>
                </td>
            </tr>
            </table>

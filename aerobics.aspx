@@ -48,13 +48,15 @@ https://templatemo.com/tm-557-grad-school
           </div>
           <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                 <li><a href="receiver.aspx">Home</a></li>
+                  <li><a href="receiver.aspx">Home</a></li>
                   <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
                   <li><a href="editpwd1.aspx">Edit Password</a></li>
                   <li><a href="notification.aspx">Notifications</a></li>
-                  <li><a href="dondetails.aspx">Donation Details</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
-                 
+
+
               </ul>
           </nav>
           <hr/>

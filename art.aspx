@@ -46,15 +46,17 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-          <nav id="menu" class="main-nav" role="navigation">
+            <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                 <li><a href="receiver.aspx">Home</a></li>
+                  <li><a href="receiver.aspx">Home</a></li>
                   <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
                   <li><a href="editpwd1.aspx">Edit Password</a></li>
                   <li><a href="notification.aspx">Notifications</a></li>
-                  <li><a href="dondetails.aspx">Donation Details</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
-                 
+
+
               </ul>
           </nav>
           <hr/>
@@ -77,7 +79,7 @@ https://templatemo.com/tm-557-grad-school
                             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="100px" Width="1300px" style="color:aliceblue">
                                 <Columns>
                                     <asp:BoundField DataField="vname" HeaderText="Name" SortExpression="vname" />
-                                    <asp:BoundField DataField="ctype" HeaderText="type of Course" SortExpression="ctype" />
+                                    <asp:BoundField DataField="ctype" HeaderText="Type Of Course" SortExpression="ctype" />
                                     <asp:BoundField DataField="atime" HeaderText="Available time" SortExpression="atime" />
                                     <asp:BoundField DataField="phno" HeaderText="Phone Number" SortExpression="phno" />
                                     <asp:BoundField DataField="email" HeaderText="Email Id" SortExpression="email" />

@@ -62,16 +62,17 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-          <nav id="menu" class="main-nav" role="navigation">
+         <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                  <li><a href="donor.aspx">Home</a></li>
-                  <li><a href="editpwd.aspx">Edit Password</a></li>
-                  <li><a href="blogs1.aspx">Feedback</a></li>
-                  <li><a href="afood.aspx">Accepted Food</a></li>
-                  <li><a href="fooddetails.aspx">Upload Food Details</a></li>
-                  <li><a href="uploaddonation.aspx">Upload Donation</a></li>
+                  <li><a href="receiver.aspx">Home</a></li>
+                  <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
+                  <li><a href="editpwd1.aspx">Edit Password</a></li>
+                  <li><a href="notification.aspx">Notifications</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
-                 
+
+
               </ul>
           </nav>
           <hr/>
@@ -108,20 +109,41 @@ https://templatemo.com/tm-557-grad-school
           
            
              
-              </div>
-              <table class="auto-style1">
-                  <tr>
-                      <td>
-                          <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-                      </td>
-                  </tr>
-              </table>
-          
+             
+                 <div class="row">
+              <div class="col-md-3"></div>
+
+              <div class="col-md-6">
+
+                  <div class="card" >
+                    
+                      <div class="card-body bg-gradient bg-dark">
+                      <!--     <label for="title" class="form-label" style="color: white;text-align:left;">Enter Booking Id</label>
+                            
+                               <div class="form-floating">
+                                
+                                <asp:TextBox runat="server"  class="form-control" style="color:black"   name="message"   id="TextBox2" Required="" ></asp:TextBox>
+                                <label for="floatingTextarea2" ></label>
+                              </div>-->
+                        
+                        
+                          <label for="title" class="form-label" style="color: white;text-align:left;">Reply Here</label>
+                        
+                         <div class="form-floating">
+                                
+                                <asp:TextBox runat="server"  class="form-control" style="color:black"   TextMode="MultiLine"  Rows="10" name="message"   id="TextBox1" Required="" ></asp:TextBox>
+                                <label for="floatingTextarea2" ></label>
+                              </div>
+                             <div class="d-grid gap-2 col-5 mx-auto">
+                         <svg xmlns="http://www.w3.org/2000/svg" color="white" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                            <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/></svg>  <asp:Button runat="server" CssClass="btn btn-success bg-gradient" type="submit"  Text="SEND" onclick="Button1_Click"/>
+                          
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="white" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                          </svg>   <button class="btn btn-danger bg-gradient" type="reset">CLEAR</button>
+                          </div>
+    
+          </div></div></div></div></div>
            
              
               </section>

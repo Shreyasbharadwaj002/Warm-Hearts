@@ -43,10 +43,12 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-        <nav id="menu" class="main-nav" role="navigation">
+     <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
                   <li><a href="receiver.aspx">Home</a></li>
                   <li><a href="orphanage.aspx">Add orphanage details</a></li>
+                  <li><a href="course1.aspx">Courses</a></li>
+                  <li><a href="rbooking.aspx">Booking</a></li>
                   <li><a href="editpwd1.aspx">Edit Password</a></li>
                   <li><a href="notification.aspx">Notifications</a></li>
                   <li><a href="signin.aspx">Logout</a></li>

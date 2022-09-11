@@ -145,7 +145,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label1" runat="server" Text="Name" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox1" runat="server" ToolTip="Your Name" Width="278px"></asp:TextBox>
+                   <asp:TextBox ID="TextBox1" runat="server" ToolTip="Your Name" Width="278px" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -153,7 +153,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label6" runat="server" ForeColor="White" Text="Orphanage Name"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                   <asp:TextBox ID="TextBox3" runat="server" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -161,7 +161,7 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label5" runat="server" ForeColor="White" Text="Feedback"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox2" runat="server" ToolTip="Few opinions on the Orphanage" Width="285px" Columns="5" Rows="3" TextMode="MultiLine"></asp:TextBox>
+                   <asp:TextBox ID="TextBox2" runat="server" ToolTip="Few opinions on the Orphanage" Width="285px" Columns="5" Rows="3" TextMode="MultiLine" Required=""></asp:TextBox>
                </td>
            </tr>
            <tr>
@@ -181,7 +181,7 @@ https://templatemo.com/tm-557-grad-school
                             <input name="star" type="radio" class="star-5" id="star-10" value="5" />
                             <label class="star-5" for="star-10">5</label>
                             <span></span> </div>
-                   <asp:TextBox runat="server" id="TextBox4" Visible="false"></asp:TextBox>
+                   <asp:TextBox runat="server" id="TextBox4" Visible="false" Required=""></asp:TextBox>
                    <center><button  style="background-color:orange;border-color:orange;color:white" onclick="fetch()" >Take Rating</button></center>
                    
                </td>
@@ -191,6 +191,11 @@ https://templatemo.com/tm-557-grad-school
                <td class="auto-style9" colspan="2">
                    <asp:Button ID="Button1" align="center" runat="server"  Text="Submit"  BackColor="#0099CC" ForeColor="Black" BorderColor="#003366"  OnClick="Button1_Click"/>
                </td>
+           </tr>
+
+           <tr align="center">
+               <td class="auto-style9" colspan="2">
+                  <asp:Label runat="server" Text="Kindly select rating and click on take rating button" ID="Label8" ForeColor="White"></asp:Label> </td>
            </tr>
 
            </table>

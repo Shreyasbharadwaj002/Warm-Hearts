@@ -30,33 +30,28 @@ public partial class reply : System.Web.UI.Page
         {
             string s = "select * from booking";
             //Response.Write(s);
-            con.Open();
+           
 
             SqlCommand cmd1 = new SqlCommand(s, con);
-            SqlDataReader reader;
-            reader = cmd1.ExecuteReader();
-            int ctr = 0;
-            //    string uname = "";
-            while (reader.Read())
-            {
-                //  uname = reader.GetString(0);
-                ctr++;
-            }
-            reader.Close();
+            
+            con.Open();
+           
+            
+               
+            
             con.Close();
-            if (ctr == 1)
-            {
-
-                s = "update booking set reply=@msg";
+           
+            
+                s = "update booking set status='replied', reply=@msg where emailid="+"'" + (string)Session["emailid"] + "'" ;
                 SqlCommand cmd11 = new SqlCommand(s, con);
                 cmd11.Parameters.Add("@msg", TextBox1.Text);
 
 
                 con.Open();
-                cmd11.ExecuteNonQuery();
+               // cmd11.ExecuteNonQuery();
                 con.Close();
                 Response.Write("<script>alert('Your Message Has Been Sent...');window.location='receiver.aspx';</script>");
-            }
+            
         }
         catch (Exception ex)
         {

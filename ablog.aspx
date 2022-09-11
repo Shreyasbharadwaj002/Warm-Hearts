@@ -38,17 +38,22 @@ https://templatemo.com/tm-557-grad-school
       <!--header-->
       <header class="main-header clearfix" >
           <div class="logo">
-              <a href="#"><em>WARM</em>HEARTS</a>
+              <a href="#" style="font-size:larger;"><em>AD</em>MIN</a>
           </div>
-          <nav id="nav" class="main-nav" role="navigation">
+         <nav id="nav" class="main-nav" role="navigation">
               <ul class="main-menu">
                   <li><a href="admin.aspx">Home</a></li>
-                  <li><a href="aeditpwd.aspx">Edit password</a></li>
-                  
-           
                   <li><a href="adonordetails.aspx">Donor's details</a></li>
-                  <!-- <li><a href="#section5">Video</a></li> -->
                   <li><a href="arecdetails.aspx">Receivers details</a></li>
+                  
+                  <li><a href="aeditpwd.aspx">Edit Password</a></li>
+                  <li><a href="ablog.aspx">Edit Blog</a></li>
+                  <li><a href="aorphanage.aspx">Edit Orphanage</a></li>
+                  <li><a href="aexpire.aspx">Delete Food Details</a></li>
+                  <!-- <li><a href="#section5">Video</a></li> -->
+                  
+                  
+            
                   <li><a href="signin.aspx">Logout</a></li>
               </ul>
           </nav>

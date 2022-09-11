@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="course.aspx.cs" Inherits="course" %>
 
+
+
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -39,16 +42,20 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-          <nav id="menu" class="main-nav" role="navigation">
+       <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                  <li><a href="index.aspx">Home</a></li>
+                  <li><a href="#">Home</a></li>
                   <li><a href="about.aspx">About Us</a></li>
                   <li><a href="course.aspx">Courses</a></li>
                   <li><a href="donorsignup.aspx">Donor</a></li>
                   <li><a href="receiversignup.aspx">Receiver</a></li>
                   <li><a href="contact.aspx">Contact</a></li>
                   <li><a href="signin.aspx">Sign in</a></li>
+
+
+
               </ul>
+             
           </nav>
           <hr/>
       </header>
@@ -67,7 +74,7 @@ https://templatemo.com/tm-557-grad-school
                           <img src="assets/images/yimg.jpg" alt="Course #1">
                           <div class="down-content">
                               <h4>Yoga Class</h4>
-                              <p>You can get free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+                              <p>Yoga improves flexibility, strength and stamina for children.It reduces stress, anxiety and build confidence. Concentration level will increase.</p><br /><br /><br />
                               <div class="author-image">
                                   <img src="assets/images/author-01.png" alt="Author 1">
                               </div>
@@ -80,7 +87,7 @@ https://templatemo.com/tm-557-grad-school
                           <img src="assets/images/art and crafts.jpg" alt="Course #2">
                           <div class="down-content">
                               <h4>Art and Craft making</h4>
-                              <p>elit dictum, quis volutpat enim blandit. Maecenas a lectus ac ipsum porta.</p>
+                              <p>Art can improve confidence and self-esteem in a multitude of ways. Crafting or doing something creative gives them a sense of confidence and pride.</p><br /><br />
                               <div class="author-image">
                                   <img src="assets/images/author-02.png" alt="Author 2">
                               </div>
@@ -93,7 +100,7 @@ https://templatemo.com/tm-557-grad-school
                           <img src="assets/images/aimg.jpg" alt="Course #3">
                           <div class="down-content">
                               <h4>Aerobics</h4>
-                              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
+                              <p>Aerobic exercise reduces the risk of many conditions. These conditions include obesity, heart disease, high blood pressure, type 2 diabetes, metabolic syndrome, stroke and certain types of cancer.</p><br /><br />
                               <div class="author-image">
                                   <img src="assets/images/author-03.png" alt="Author 3">
                               </div>
@@ -106,7 +113,7 @@ https://templatemo.com/tm-557-grad-school
                           <img src="assets/images/simg.jpg" alt="Course #3">
                           <div class="down-content">
                               <h4>Sangeetha Class</h4>
-                              <p>Pellentesque ultricies diam magna, auctor cursus lectus pretium nec. Maecenas finibus lobortis enim.</p>
+                              <p>Listening to classical music has not been shown to improve intelligence in children or adults.Classical music is particularly effective in slowing down our thoughts, and allowing the brain to switch off for the night.</p><br />
                               <div class="author-image">
                                   <img src="assets/images/author-03.png" alt="Author 3">
                               </div>
@@ -119,7 +126,8 @@ https://templatemo.com/tm-557-grad-school
                           <img src="assets/images/dimg.jpg" alt="Course #4">
                           <div class="down-content">
                               <h4>Dance Class</h4>
-                              <p>Download free images and videos for your websites by visiting Unsplash, Pixabay, and Pexels.</p>
+                              <p>Dancing can be a way to stay fit for people of all ages, shapes and sizes.Dancing can improve your muscle tone, strength, endurance and fitness.It improves condition of your heart and lungs and also
+increase muscular strength, endurance and motor fitness.</p>
                               <div class="author-image">
                                   <img src="assets/images/author-04.png" alt="Author 4">
                               </div>
@@ -132,6 +140,7 @@ https://templatemo.com/tm-557-grad-school
                           <img src="assets/images/courses-05.jpg" alt="">
                           <div class="down-content">
                               <h4>Personality Development</h4>
+                              <p>Personality development teaches the kids to cultivate the right mindset to reach their ultimate goals in life. Enhances Focus Personality development in kids improves their focus and effectiveness.</p><br />
                               <div class="author-image">
                                   <img src="assets/images/author-05.png" alt="">
                               </div>
@@ -144,7 +153,8 @@ https://templatemo.com/tm-557-grad-school
                   </div>
               </div>
           </div>
-      </section>  <footer>
+      </section>  
+     <footer>   
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
@@ -227,3 +237,4 @@ https://templatemo.com/tm-557-grad-school
 
      </body>
     </html>
+

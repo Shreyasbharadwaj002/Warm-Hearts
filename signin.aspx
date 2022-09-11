@@ -121,8 +121,8 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label1" runat="server" Text="Email-id" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox1" runat="server"  ToolTip="Enter Your Email Id or UserName" TextMode="Email"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox1" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox1" runat="server"  ToolTip="Enter Your Email Id or UserName" TextMode="Email" Required=""></asp:TextBox>
+                  
                </td>
            </tr>
            <tr>
@@ -130,8 +130,8 @@ https://templatemo.com/tm-557-grad-school
                    <asp:Label ID="Label2" runat="server" Text="Password" ForeColor="White"></asp:Label>
                </td>
                <td class="auto-style6">
-                   <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" ToolTip="Enter Your Password"></asp:TextBox>
-                   <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="*" ForeColor="White"></asp:RequiredFieldValidator>
+                   <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" ToolTip="Enter Your Password" Required=""></asp:TextBox>
+                
                </td>
            </tr>
            <tr>

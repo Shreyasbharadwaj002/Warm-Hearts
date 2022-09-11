@@ -60,13 +60,14 @@ https://templatemo.com/tm-557-grad-school
           <div class="logo">
               <a href="#"><em>WARM</em>HEARTS</a>
           </div>
-          <nav id="menu" class="main-nav" role="navigation">
+           <nav id="menu" class="main-nav" role="navigation">
               <ul class="main-menu">
-                 <li><a href="receiver.aspx">Home</a></li>
-                  <li><a href="orphanage.aspx">Add orphanage details</a></li>
-                  <li><a href="editpwd1.aspx">Edit Password</a></li>
-                  <li><a href="notification.aspx">Notifications</a></li>
-                  <li><a href="dondetails.aspx">Donation Details</a></li>
+                  <li><a href="donor.aspx">Home</a></li>
+                  <li><a href="editpwd.aspx">Edit Password</a></li>
+                  <li><a href="blogs1.aspx">Bookings</a></li>
+                  <li><a href="afood.aspx">Accepted Food </a></li>
+                  <li><a href="fooddetails.aspx">Upload Food Details</a></li>
+                  <li><a href="uploaddonation.aspx">Upload Donation</a></li>
                   <li><a href="signin.aspx">Logout</a></li>
                  
               </ul>
@@ -98,7 +99,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label1" runat="server" ForeColor="White" Text="Name"></asp:Label>
               </td>
               <td>
-                  <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TextBox1" runat="server" Required="" ></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -106,7 +107,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label2" runat="server" ForeColor="White" Text="Phone Number"></asp:Label>
               </td>
               <td class="auto-style2">
-                  <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TextBox2" runat="server" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -114,7 +115,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label3" runat="server" ForeColor="White" Text="Email Id"></asp:Label>
               </td>
               <td>
-                  <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TextBox3" runat="server" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
@@ -150,7 +151,7 @@ https://templatemo.com/tm-557-grad-school
                   <asp:Label ID="Label6" runat="server" ForeColor="White" Text="No of Books"></asp:Label>
               </td>
               <td class="auto-style6">
-                  <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                  <asp:TextBox ID="TextBox6" runat="server" Required=""></asp:TextBox>
               </td>
           </tr>
           <tr>
